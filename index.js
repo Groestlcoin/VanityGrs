@@ -40,7 +40,7 @@ if (cluster.isMaster) {
     logStream = fs.createWriteStream(args.logFname, { 'flags': 'a' });
   }
   let walletsFound = 0;
-  const spinner = ora('generating vanity address F/' + args.numWallets).start();
+  const spinner = ora('generating vanity address 1/' + args.numWallets).start();
   for (let i = 0; i < numCPUs; i++) {
     const worker_env = {
       input: args.input,
