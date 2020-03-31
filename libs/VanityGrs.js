@@ -1,4 +1,4 @@
-const bitcoin = require("bitcoinjs-lib");
+const bitcoin = require("groestlcoinjs-lib");
 const ERRORS = {
   invalid: 'Invalid input'
 };

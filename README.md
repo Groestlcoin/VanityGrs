@@ -1,6 +1,6 @@
-# Vanity BTC
+# Vanity GRS
 
-NodeJS based tool to generate vanity bitcoin addresses
+NodeJS based tool to generate vanity groestlcoin addresses
 
 # Features!
 
@@ -11,36 +11,35 @@ NodeJS based tool to generate vanity bitcoin addresses
 
 ### Installation
 ```sh
-$ npm install -g vanity-btc
-$ vanitybtc -i cafe
+$ npm install -g vanity-grs
+$ vanitygrs -i cafe
 ```
 ### Examples
 
-Generate bitcoin address:
+Generate groestlcoin address:
 ```sh
-$ vanitybtc
+$ vanitygrs
 ```
 
-generate 10 bitcoin addresses:
+generate 10 groestlcoin addresses:
 ```sh
-$ vanitybtc -n 10
+$ vanitygrs -n 10
 ```
 
-generate 10 bitcoin addresses with Cafe as starting characters:
+generate 10 groestlcoin addresses with Cafe as starting characters:
 ```sh
-$ vanitybtc -n 10 -i Cafe
+$ vanitygrs -n 10 -i Cafe
 ```
 log to file
 ```sh
-$ vanitybtc -n 10 -l
+$ vanitygrs -n 10 -l
 ```
 help me
 ```sh
-$ vanitybtc -h
+$ vanitygrs -h
 ```
 
 License
 ----
 
 MIT
-
